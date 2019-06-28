@@ -1,19 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Notam</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script  src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Notam</title>
+        <link rel="icon" 
+            type="image/png" 
+            href="assets/images/favicon.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script  src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous"></script>
+        <script src="assets/js/slick.js"></script>
+        <script src="assets/js/main.js"></script>
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/slick-theme.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        </head>
+    <body>
+        <!--------------------BANNER------------------------>
+
+        <!-- #Mobile-->
+        <div class="bannerContainer mobileContent paddingBody">
+            <div class="row">
+                <div class="col marginAuto">
+                    <img class="logoNotam" src="assets/images/Mobile.svg">
+                </div>
+                <div class="col-2 marginAuto">
+                    <img class="menuCross" src="assets/images/Plus.svg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="neuroMusic IBMFont">NEUROMARKETING MUSIC</p>
+                </div>
+            </div>
+            <div class="paddingBody">
+                <div class="row bannerPhoto">
+                    <div class="col-12 marginAuto">
+                        <h2 class="bannerText">LLEVA LA EXPERIENCIA DE CLIENTE A OTRO NIVEL</h2>
+                    </div>
+                </div>
+                <img class="waveRight" src="assets/images/WaveRedRight.png">
+            </div>
+        </div>
+
+        
+        <!-- #Desktop-->
+        <div class="bannerContainer desktopContent paddingBody">
+                <div class="row">
+                    <div class="col marginAuto">
+                        <img class="logoNotam" src="assets/images/Desktop.svg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="neuroMusic IBMFont">NEUROMARKETING MUSIC</p>
+                    </div>
+                </div>
+                <div class="paddingBody">
+                    <div class="row bannerPhoto">
+                        <div class="col-12 col-md-10">
+                            <h2 class="bannerText">LLEVA LA EXPERIENCIA DE CLIENTE A OTRO NIVEL</h2>
+                        </div>
+                    </div>
+                    <img class="waveRight" src="assets/images/WaveRedRight.png">
+                </div>
+            </div>
+        <!-------------------BANNER------------------------>
+
+        <!--------------------SOMOS------------------------>
+        <div class="somosSection paddingBody">
+            <div class="row rowReverseForDesktop">
+                <div class="col-12">
+                    <object class="somosIcon" data="assets/images/Icono.svg" type="image/svg+xml"></object>
+                </div>
+                <div class="mobileContent col-12">
+                    <h2 class="somosHeader">SOMOS NOTAM</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="somosImg"></div>
+                    <img class="waveLeft"  src="assets/images/WaveRedLeft.png">
+                </div>
+                <div class="flexEndForDesktop col-12 col-md-6 padTop">
+                    <h2 class="desktopContent somosHeader">SOMOS NOTAM</h2>
+                    <p class="somosText">Creamos por medio de música una atmósfera agradable y personalizada que impulse la venta, el consumo y aporte a la identidad de la marca.</p>
+                    <p class="somosText">Somos un grupo de jóvenes ingenieros de audio, músicos, mercadólogos, vendedores y revolucionarios de la experiencia de cliente.</p>
+                    <p class="somosText">Basados en la ciudad de Monterrey, nuestro trabajo nos ha abierto horizontes a nivel nacional, pudiendo otorgar a nuestros clientes la experiencia que sus marcas se merecen.</p>
+                </div>
+            </div>
+        </div>
+        <!--------------------SOMOS------------------------>
+        
+        <!--------------NUESTROS SERVICIOS----------------->
+        <div class="nuestrosServiciosSection mobileContent paddingBody">
+            <div class="row">
+                <div class="col">
+                    <h2 class="nuestrosHeading">NUESTROS SERVICIOS</h2>
+                        <img class="waveRightSlider" src="assets/images/WaveRedRight.png">
+                        <div id="serviciosSlider">
+                            <div class="slideServicios">
+                                <img class="slideImg" src="assets/images/CuradoriaEventos.svg" alt="curadoriaEventos">
+                                <h3 class="slideHeading">CURADURÍA MUSICAL PARA TUS EVENTOS</h3>
+                                <p class="slideText">Creamos el ambiente adecuado para tu evento corporativo que respete la identidad musical de tu marca.</p>
+                            </div>
+                            <div class="slideServicios">
+                                <img class="slideImg" src="assets/images/CuradoriaNegocio.svg" alt="curadoriaEventos">
+                                <h3 class="slideHeading">CURADURÍA MUSICAL PARA TU NEGOCIO</h3>
+                                <p class="slideText">Creamos una atmósfera agradable para tu negocio con una selección musical personalizada que impulse la venta y el consumo.</p>
+                            </div>
+                            <div class="slideServicios">
+                                <img class="slideImg" src="assets/images/HabilitacionAtmosfera.svg" alt="curadoriaEventos">
+                                <h3 class="slideHeading">HABILITACIÓN DE ATMÓSFERA</h3>
+                                <p class="slideText">Instalación de equipo de audio y acondicionamiento acústico para tu negocio.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nuestrosServiciosSection desktopContent paddingBody">
+                <div class="row">
+                    
+                    <div class="col-12">
+                        <h2 class="nuestrosHeading">NUESTROS SERVICIOS</h2>
+                        <img class="waveRightSlider" src="assets/images/WaveRedRight.png">
+                    </div>                    
+                 
+                    <div class=" col-4 slideServicios">
+                    <img class="slideImg" src="assets/images/CuradoriaEventos.svg" alt="curadoriaEventos">
+                        <h3 class="slideHeading">CURADURÍA MUSICAL PARA TUS EVENTOS</h3>
+                        <p class="slideText">Creamos el ambiente adecuado para tu evento corporativo que respete la identidad musical de tu marca.</p>
+                    </div>
+                    <div class="col-4 slideServicios">
+                        <img class="slideImg" src="assets/images/CuradoriaNegocio.svg" alt="curadoriaEventos">
+                        <h3 class="slideHeading">CURADURÍA MUSICAL PARA TU NEGOCIO</h3>
+                        <p class="slideText">Creamos una atmósfera agradable para tu negocio con una selección musical personalizada que impulse la venta y el consumo.</p>
+                    </div>
+                    <div class="col-4 slideServicios">
+                        <img class="slideImg" src="assets/images/HabilitacionAtmosfera.svg" alt="curadoriaEventos">
+                        <h3 class="slideHeading">HABILITACIÓN DE ATMÓSFERA</h3>
+                        <p class="slideText">Instalación de equipo de audio y acondicionamiento acústico para tu negocio.</p>
+                    </div>
+                </div>
+            </div>            
+        <!--------------NUESTROS SERVICIOS----------------->
+        
+        <!--------------NUESTROS CLIENTES------------------>
+        <div class="nuestrosClientesSection paddingBody">
+            <div class="row padBottom">
+                <div class="col-12">
+                    <h2 class="nuestrosHeading extraPadForDesktop">NUESTROS CLIENTES</h2>
+                </div>
+                <div class="col-12 col-md-4 alignPad">
+                    <img class="NCImg" src="assets/images/Emwa.png" alt="ENWA">
+                </div>
+                <div class="col-12 col-md-4 alignPad">
+                    <img class="NCImgMar" src="assets/images/MarDelZur.png" alt="MarDelZur">
+                </div>
+                <div class="col-12 col-md-4 alignPad">
+                    <img class="NCImg" src="assets/images/Nambe.png" alt="Nambe">
+                </div>
+            </div>
+        </div>
+        <!--------------NUESTROS CLIENTES------------------>
+        
+        <!------------------ESCUCHANOS--------------------->
+        <div class="escuchanosSection paddingBody">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="escuchanosHeading">ESCÚCHANOS</h2>
+                    <img class="wavePurpleRight" src="assets/images/WavePurpRight.png">
+                    <iframe class="spotifyPlayer" src="https://open.spotify.com/embed/playlist/5J8UPS1ez7m4n2N7dwlwno" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+        <!------------------ESCUCHANOS--------------------->
+        
+        <!--------------------SOCIAL----------------------->
+        <div class="socialSection paddingBody">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="socialHeading">SOCIAL</h2>
+                </div>
+            </div>
+        </div>
+        <!--------------------SOCIAL----------------------->
+        
+        <!--------------------FOOTER----------------------->
+        <!-- #Mobile-->
+        <div class="footerSection mobileContent paddingBody">
+            <div class="row footerContent">
+                    <div class="col-12">
+                        <img class="footerLogo" src="assets/images/Icono.svg" alt="notamLogo">
+                    </div>
+                    <div class="col-12 footerImgs">
+                        <img class="footerImg linkedin" src="assets/images/LinkedIn.svg" alt="LinkedIn">
+                        <img class="footerImg instagram" src="assets/images/Instagram.svg" alt="Instagram">
+                        <img class="footerImg facebook" src="assets/images/Facebook.svg" alt="Facebook">
+                    </div>
+                    <div class="col-12">
+                        <a class="footerLinks" href= "mailto: hola@notam.mx?subject=Solicitud de Informacion&body=Quisiera saber mas sobre sus servicios" >hola@notam.mx</a>
+                    </div>
+                    <div class="col-12">
+                        <a class="footerLinks" href="tel:8121909211">(+52 1) 81 2190 9211</a>
+                    </div>
+                    <div class="col-12">
+                        <p class="footerCopyRight">© NOTAM, 2019.</p>
+                    </div>
+            </div>
+        </div>
+        <!-- #Desktop-->
+        <div class="footerSection desktopContent paddingBody">
+            <div class="row footerContent">
+                    <div class="col-6 alignLeft autoMargin">
+                        <img class="footerLogo" src="assets/images/Icono.svg" alt="notamLogo">
+                    </div>
+                    <div class="col-6 footerImgs">
+                        <img class="footerImg linkedin" src="assets/images/LinkedIn.svg" alt="LinkedIn">
+                        <img class="footerImg instagram" src="assets/images/Instagram.svg" alt="Instagram">
+                        <img class="footerImg facebook" src="assets/images/Facebook.svg" alt="Facebook">
+                    </div>
+                    <div class="col-12 alignLeft">
+                        <a class="footerLinks" href= "mailto: hola@notam.mx?subject=Solicitud de Informacion&body=Quisiera saber mas sobre sus servicios" >hola@notam.mx</a>
+                    </div>
+                    <div class="col-6 alignLeft">
+                        <a class="footerLinks" href="tel:8121909211">(+52 1) 81 2190 9211</a>
+                    </div>
+                    <div class="col-6 alignRight">
+                        <p class="footerCopyRight">© NOTAM, 2019.</p>
+                    </div>
+            </div>
+        </div>
+        <!--------------------FOOTER----------------------->
+    </body>
 </html>
