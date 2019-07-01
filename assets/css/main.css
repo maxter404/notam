@@ -49,6 +49,9 @@ html, body{
 .paddingBody{
     padding: 15px; 
 }
+.paddingSides{
+    padding: 0 15px;
+}
 .bannerText{
     color: white;
     text-align: center;
@@ -101,8 +104,7 @@ html, body{
 .nuestrosHeading{
     color: white;
     text-align: center;
-    font-size: 42px;    
-    padding-bottom: 50px;    
+    font-size: 42px; 
     position: inherit;
     z-index: 99;
 }
@@ -139,6 +141,7 @@ html, body{
 .slick-dots li.slick-active button:before, .slick-dots li button:before {
     border: 1px solid white;
     border-radius: 100%;
+    opacity: 1;
 }
 .slick-dots li.slick-active button {
     opacity: 1;
@@ -146,11 +149,12 @@ html, body{
 .slick-dots li.slick-active button:before {
     color: white;
     background: white;
+    opacity: 1;
 }
 .slick-dots li button:before{
     content: '';
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
 }
 .NCImg{
     height: 50px;
@@ -200,12 +204,22 @@ html, body{
     right: 15px;
     position: absolute;
     top: 25px;
+    z-index: -1;
 }
 .socialHeading{
     color: white;
     text-align: center;
     font-size: 42px;    
     padding: 20px 0;   
+}
+.barritaBlanca{
+    background: white;
+    margin: 0 -15px;
+}
+.purpleBtn{
+    background: #6C3B8C;
+    cursor: pointer;
+    text-align: center;
 }
 @media (min-width: 768px){
     .mobileContent{
@@ -225,7 +239,7 @@ html, body{
         margin: auto;
     }
     .waveRight {
-        height: 15vh;
+        height: 10vh;
         right: 15px;
         top: 200px;
     }
@@ -302,6 +316,12 @@ html, body{
     .extraPadForDesktop{
         padding: 20px 0 100px 0 !important;
     }
+    .somosIcon{
+        height: 62px;
+    }
+    .purpleBtn{
+        text-align: left;
+    }
 }
 @media (max-width: 767px){
     .desktopContent{
@@ -311,7 +331,9 @@ html, body{
         height: 600px;
     }    
     .nuestrosHeading{
-        padding: 20px 0 100px 0;
+        padding-top: 20px 0;
     }
-
+    #serviciosSlider{
+        margin-top: 50px;
+    }
 }
